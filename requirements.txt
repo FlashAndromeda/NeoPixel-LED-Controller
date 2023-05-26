@@ -1,0 +1,5 @@
+cupy_cuda11x==12.1.0
+joblib~=1.2.0
+Pillow~=9.5.0
+Pillow==9.5.0
+pyserial==3.5
