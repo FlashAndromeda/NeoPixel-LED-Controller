@@ -43,7 +43,7 @@ An important thing as well is adding parity checking in the API to make sure all
 I will need to optimize the screen_mirror effect to lower the latency and possibly switch to calculating the dominant color on the screen, instead of averaging across all pixel colors.
 Another change I wish to make to that effect is have the `current` color update in real-time but the color sent to the LEDs be 'chasing' that color in the RGB space with some latency and smoothing. That would ensure any changes on the screen would be reflected in the LEDs immediately while maintaining the smoothness of the effect.
 
-Obviously more effects would be nice :)
+Obviously more effects would be nice :) (for example, changing the hue depending on the current audio loudness or GPU/CPU temperatures)
 
 ## Known Issues
 `cupy` import often breaks.
